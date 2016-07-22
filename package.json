@@ -1,0 +1,23 @@
+{
+  "name": "hiot-circuit-breaker",
+  "version": "0.0.1",
+  "description": "A promisified version of circuit-breaker-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiotlabs/hiot-circuit-breaker.git"
+  },
+  "keywords": [
+    "circuit-breaker",
+    "promises"
+  ],
+  "author": "Johan Dewe <johan@dewe.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiotlabs/hiot-circuit-breaker/issues"
+  },
+  "homepage": "https://github.com/hiotlabs/hiot-circuit-breaker#readme"
+}

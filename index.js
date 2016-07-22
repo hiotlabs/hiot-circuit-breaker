@@ -9,8 +9,8 @@ module.exports = class {
   }
 
   run(command, fallback) {
-    assert(typeof command.then === 'function', 'command should be thenable');
-    assert(typeof fallback.then === 'function', 'fallback should be thenable');
+    command = Promise.resolve(command);
+    fallback = Promise.resolve(fallback);
 
     return new Promise((resolve, reject) => {
       var cmd = (success, failed) => {

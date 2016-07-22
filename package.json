@@ -1,6 +1,6 @@
 {
   "name": "hiot-circuit-breaker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A promisified version of circuit-breaker-js",
   "main": "index.js",
   "scripts": {

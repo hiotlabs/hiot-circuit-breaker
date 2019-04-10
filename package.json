@@ -14,14 +14,14 @@
     "circuit-breaker",
     "promises"
   ],
-  "author": "Johan Dewe <johan@dewe.net>",
+  "author": "<info@hiotlabs.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hiotlabs/hiot-circuit-breaker/issues"
   },
   "homepage": "https://github.com/hiotlabs/hiot-circuit-breaker#readme",
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^6.1.2"
   },
   "dependencies": {
     "circuit-breaker-js": "0.0.1"
